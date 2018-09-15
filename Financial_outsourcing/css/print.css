@@ -1,0 +1,187 @@
+/*начало общие настройки*/
+* {
+	color: #000 !important;
+	border-color: #000 !important;
+	background: none !important;
+}
+/*конец общие настройки*/
+
+/*начало aboutProject*/
+.aboutProject {
+	border: none !important;
+	width: 100%;
+}
+.logoTop {
+	border-bottom: 1px solid #000;
+}
+.logoTop .pageH1 {
+	font-size: 18px;
+}
+.pageH1 {
+	border-right: none;
+	border-bottom: none;
+	text-align: left;
+}
+.logoText a {
+	display: none;
+}
+nav, .navTop {
+	display: none;
+}
+article {
+	width: 100%;
+}
+#main article {
+	display: none;
+}
+#sozdanie article {
+	display: inline;
+}
+#prodvizhenie article {
+	display: inline;
+}
+article h2 {
+	border-bottom: none;
+	font-size: 22px;
+	padding-top: 10px;
+}
+article section h2 {
+	border-bottom: none;
+}
+article section p {
+	padding: 0px 10px 10px 10px;
+}
+#sozdanie .reason {
+	display: none;
+}
+#sozdanie .reason:first-of-type {
+	display: inline;
+}
+#prodvizhenie .reason {
+	display: none;
+}
+#prodvizhenie .reason:first-of-type {
+	display: inline;
+}
+.reason ul {
+	list-style-type: square !important;
+	margin: 0px;
+}
+#prodvizhenie article .reason ul {
+	font-size: 18px !important;
+}
+.reason ul  li {
+	background: none !important;
+	padding-left: 0px;
+}
+#sozdanie .reason ul  li {
+	padding-bottom: 0px;
+}
+.rules {
+	display: none;
+}
+#buhgalter article hr {
+	display: none;
+}
+/*конец aboutProject*/
+
+/*начало дополнительный контент*/
+aside {
+	display: inline;
+	width: 100%;
+}
+#transaction aside {
+	display: none;
+}
+#sozdanie aside h3 {
+	font-size: 22px !important;
+}
+#prodvizhenie aside h3 {
+	font-family: 'Jura', sans-serif !important; 
+	font-size: 22px !important;
+}
+#sozdanie aside h3 span {
+	font-size: 22px !important;
+}
+aside section {
+	box-shadow: none;
+	margin: 0%;
+	padding: 10px 0px 5px;
+}
+#sozdanie aside section:nth-of-type(even) {
+	display: none;
+}
+#prodvizhenie aside section:nth-of-type(even) {
+	display: none;
+}
+#sozdanie aside section:last-of-type {
+	display: none;
+}
+#prodvizhenie aside section:last-of-type {
+	display: none;
+}
+#sozdanie aside p {
+	font-size: 16px;
+}
+#prodvizhenie aside p {
+	font-size: 18px;
+}
+#sozdanie aside span p {
+	font-size: 18px !important;
+}
+#sozdanie aside ul {
+	font-size: 16px;
+}
+#prodvizhenie aside ul {
+	font-size: 18px;
+}
+#sozdanie aside ul li {
+	line-height: 1.2;
+}
+#sozdanie aside hr {
+	display: none;
+}
+#prodvizhenie aside hr {
+	display: none;
+}
+.aboutUs {
+	display: none;
+}
+.breadcrumb {
+	display: none;
+}
+footer {
+	display: inline;
+}
+.ya_metrika {
+	display: none;
+}
+.address {
+	display: none;
+}
+.oferta {
+	width: 100%;
+	font-size: 8px;
+	display: inline;
+	border-top: 1px solid #000 !important;
+}
+#main .oferta {
+	margin-top: 7px;
+	font-size: 12px;
+}
+#sozdanie .oferta {
+	margin-top: 7px;
+}
+.oferta p {
+	padding: 0 10px;
+}
+#sozdanie .oferta p {
+	font-size: 12px;
+}
+#prodvizhenie .oferta p {
+	font-size: 14px;
+	padding-top: 20px;
+}
+a:after {
+	content: "("attr(href)")";
+}

@@ -1,0 +1,116 @@
+.logoText p {
+	font-size: 22px;
+	line-height: 1.2;
+}
+.tel {
+	font-size: 18px;
+	font-family: 'Jura', sans-serif;
+}
+.email {
+	font-size: 18px;
+	padding-top: 7px;
+	font-family: 'Jura', sans-serif;
+}
+.logoText a {
+	font-size: 18px;
+}
+.pageH1  {
+	font-size: 20px;
+}
+
+/*nav*/
+.navTop li {
+	font: 20px Arial, sans-serif; 
+}
+/*end nav*/
+
+/*aboutProject*/
+.aboutProject {
+	width: 100%;
+}
+/*начало основной контент*/
+article h2 {
+	font-size: 26px;
+	margin-bottom: 10px;
+	padding: 10px 5px 0px 0px;
+}
+article section h2 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+article section p {
+	padding: 5px 10px;
+}
+.plan h2 {
+	font-size: 20px;
+}
+/*конец основной контент*/
+
+/*начало дополнительный контент*/
+aside h3, aside h3 span {
+	font-size: 18px !important; 
+	padding: 5px;
+}
+aside p {
+	padding: 5px;
+}
+aside p.bold {
+	margin-top: -10px;
+	margin-bottom: -5px;
+	font-size: 14px !important;
+}
+aside ul {
+	padding: 5px 5px 10px;
+}
+aside ul  li {
+	padding-bottom: 5px;
+}
+aside ul  li:last-of-type {
+	padding-bottom: 0px;
+}
+/*конец дополнительный контент*/
+/*конец aboutProject*/
+
+/*aboutUs*/
+.aboutUs {
+	position: static;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 2px solid #ccc;
+	display: inline-block;
+}
+.contactUs {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 0;
+	width: 100%;
+}
+.contactUs p {
+	padding: 20px;
+	font-size: 24px;
+}
+.contactUs a {
+	padding: 0px;
+	font-size: 24px;
+}
+.contactUs span {
+	font-size: 22px;
+}
+.socSeti  {
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+/*end aboutUs*/
+
+/*footer*/
+.oferta {
+	width: 100%;
+	border-right: none;
+}
+.address {
+	text-align: right;
+	width: 75%;
+	border-right: none;
+}
+/*end footer*/

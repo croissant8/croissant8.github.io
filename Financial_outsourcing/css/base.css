@@ -1,0 +1,498 @@
+/*начало общие стили*/
+body {
+	background-color: #4F4F4F;
+	/*background: url(../images/6.jpg) repeat bottom right;*/
+}
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: 'Play', sans-serif;
+	color: #1C1C1C; 
+}
+.font12px {
+	font-size: 12px;
+}
+.font16px {
+	font-size: 16px;
+}
+.fontFFF {
+	color: #fff;
+}
+.fontRed {
+	color: #FF6347;
+}
+.fontBold {
+	font-weight: 600;
+}
+/*конец общие стили*/
+
+/*начало aboutProject*/
+.aboutProject {
+	float: left;
+	background: #F5F5F5;
+	width: 75%;
+	border: 4px groove #828282;
+}
+.logoTop {
+	float: left;
+	width: 100%;
+	background: #E8E8E8;
+	border-bottom: 4px groove #828282;
+	padding: 0px;
+}
+.pageH1 {
+	float: left;
+	width: 50%;
+    text-align: right;
+	position: relative;
+	font-size: 22px;
+	line-height: 1.2;
+	padding: 10px;
+	border-right: 8px groove #ccc;
+	border-bottom: 8px groove #ccc;
+	background: #104E8B;
+}
+.pageH1  h1, .pageH1 span {
+	font-family: 'Jura', sans-serif;
+	color: #E8E8E8;
+}
+.logoText {
+	float: left;
+	width: 50%;
+	text-align: right;
+	padding: 10px;
+	background: #E8E8E8;
+}
+.name {
+	color: #104E8B;
+	font-size: 24px;
+	line-height: 1.1;
+	font-family: 'Jura', sans-serif;
+	font-weight: bold;
+}
+.tel {
+	color: #104E8B;
+	font-size: 20px;
+	line-height: 1.1;
+	font-family: 'Jura', sans-serif;
+}
+.email {
+	color: #104E8B;
+	font-size: 20px;
+	line-height: 1.1;
+	font-family: 'Jura', sans-serif;
+}
+.logoText a {
+	color: #104E8B;
+	font-size: 20px;
+	line-height: 1.1;
+	font-family: 'Jura', sans-serif;
+}
+#sozdanie .action {
+	-webkit-animation: Logo 2s;
+	-moz-animation: Logo 2s;
+	-o-animation: Logo 2s;
+	animation: Logo 2s;
+	color: red;
+	transition: color 1s;
+}
+#sozdanie .action:hover {
+	color: #00BFFF;
+}
+
+/*главная навигация*/
+nav {
+	width: 100%;	
+	display: table;
+	background: #FFEE91;
+	float: left;
+}
+ul.navTop {
+	list-style: none;
+	border-bottom: 4px groove #828282;
+	float: left;
+	width: 100%;
+	display: table-row;
+	padding: 0;
+}
+.navTop li {
+	display: table-cell;
+	width: 34%;
+	float: inherit;
+	font-size: 22px; 
+	border-right: 2px groove #696969;
+}
+.navTop li:last-of-type{
+	width: 32%;
+	border-right: none;
+}
+.navTop a {
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-family: 'Jura', sans-serif;
+	color: #333;
+}
+.navTop a:hover {
+	color: #104E8B;
+}
+.navTop a:hover span {
+	color: #104E8B;
+	transition: color 2s;
+	text-decoration: none;
+}
+#sozdanie .sozd, #prodvizhenie .prodv, #main .main  {
+	background: #B5B5B5;
+	display: block;
+}
+/*конец главная навигация*/
+
+/*основной контент*/
+article {
+	float: left;
+	width: 75%;
+	overflow: hidden;
+}
+article h2 {
+	font-size: 30px;
+	padding: 20px 5px 0px 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-bottom: 2px dashed #363636;
+	overflow: hidden;
+	color: #363636;
+	font-family: 'Jura', sans-serif;
+	line-height: 1.1;
+}
+article section h2 {
+	font-family: 'Jura', sans-serif;
+	font-size: 22px;
+	padding: 10px 10px 0px 0px;
+	border-bottom: 2px dashed #828282;
+	color: #828282;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+article section p {
+	text-align: justify;
+	padding: 10px;
+}
+article section:last-of-type {
+	padding-bottom: 20px;
+}
+.reason ul {
+	margin: 10px;
+	margin-left: -10px;
+	text-align: justify;
+	list-style: none;
+}
+.reason ul  li {
+	padding-bottom: 15px;
+	list-style-image: url(../images/ok.png);
+	list-style-position: inside;
+}
+/.reason li:last-of-type {
+	padding-bottom: 0px;
+}
+.reason ol {
+	margin: 20px 10px 0px 15px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+.reason ol  li{
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.reason ol  li span{
+	border: 1px solid #CFCFCF;
+	border-left: 10px solid #CFCFCF;
+	padding: 2px;
+	color: #222;
+	font-weight: bold;
+}
+.reason ul  li p{
+	font-size: 16px;
+	padding-left: 0px;	
+}
+.reason ul table.price {
+	width: 100%;
+	margin-top: 5px;
+}
+.reason .price th, .reason .price tr, .reason .price td {
+	background: none;
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: 'Play', sans-serif;
+	color: #1C1C1C;
+	border: 1px solid #828282;
+	padding: 5px 10px;
+	/margin: 0;
+}
+.rules {
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+table {
+	border-right: 2px solid #828282;
+}
+table th {
+	border: 2px solid #828282;
+	padding: 10px;
+	color: #fff;
+	font-size: 22px;
+	font-family: 'Jura', sans-serif;
+	background: #B5B5B5;
+}
+table tr:last-of-type {
+	border-bottom: 2px solid #828282;
+}
+table td {
+	padding: 10px;
+	border-bottom: 2px dotted #828282;
+	border-right: 2px dotted #828282;
+}
+table td:first-of-type {
+	border-left: 2px solid #828282;
+}
+table td:last-of-type {
+	border-right: 2px solid #828282;
+}
+.plan {
+	clear: both;
+	margin-bottom: 30px;
+}
+.plan h2 {
+	border-bottom: 2px dotted #828282;
+	border-top: 2px dotted #828282;
+	padding: 10px;
+	color: #828282;
+	font-size: 22px;
+	font-family: 'Jura', sans-serif;
+}
+.plan li{
+	margin: 10px;
+}
+.plan p {
+	padding-left: 10px;
+}
+.breadcrumb {
+	clear: left;
+	margin: 10px;
+}
+.firstLevel, .secondLevel, .gap {
+	display: inline-block;
+}
+#buhgalter article p {
+	padding: 5px 10px 0px 10px;
+	font-style: italic;
+}
+#buhgalter article p:first-of-type {
+	padding-top: 10px;
+}
+#buhgalter article p:last-of-type {
+	padding-bottom: 20px;
+	font-style: normal;
+	font-size: 14px;
+}
+#buhgalter article {
+	width: 100%;
+}
+.data {
+	font-size: 14px;
+}
+/*конец основной контент*/
+
+/*дополнительный контент*/
+aside {
+	float: right;
+	width: 25%;
+}
+aside section {
+	background: #fff;
+	box-shadow: 5px 5px 10px 1px #696969, 1px 1px 2px #696969;
+	margin: 10%;
+	margin-left: 6%;
+	overflow: hidden;
+	line-height: 1.3;
+	text-align: left;
+}
+aside h3 {
+	font-family: 'Jura', sans-serif;
+	font-size: 20px; 
+	background: #E8E8E8;
+	padding: 10px;
+	color: #B5B5B5;
+	line-height: 1.1;
+}
+#transaction aside h3 {
+	color: red;
+}
+aside h3 span {
+	font-family: 'Jura', sans-serif;
+	font-size: 20px; 
+	color: #B5B5B5;
+	line-height: 1.1;
+}
+aside p {
+	padding: 10px;
+	padding-bottom: 0px;
+	font-size: 14px;
+	color: #828282;
+}
+aside .bold {
+	font-weight: bold;
+	color: #828282 !important;
+	margin-top: -5px;
+}
+aside span p:first-of-type {
+	padding-top: 10px;
+	color: #FF6347;
+	font-size: 14px;
+}
+#main aside p:last-of-type {
+	padding-bottom: 10px;
+}
+#sozdanie aside section:last-of-type {
+	padding-bottom: 10px;
+}
+#prodvizhenie aside section:last-of-type {
+	padding-bottom: 10px;
+}
+#transaction aside p {
+	padding: 10px;
+}
+aside ul {
+	padding: 10px;
+	font-size: 14px;
+	list-style-type: none;
+	font-family: 'Play', sans-serif;
+}
+aside ul  li {
+	color: #828282;
+	padding-bottom: 10px;
+}
+aside ul  li:last-of-type {
+	padding-bottom: 0px;
+}
+aside a {
+	text-decoration: none;
+	border-bottom: 1px solid #FF6347;
+}
+/*конец дополнительный контент*/
+.breadcrumb {
+	clear: both;
+}
+/*конец aboutProject*/
+
+/*начало aboutUs*/
+.aboutUs {
+	width: 25%;
+	color: #fff;
+	position: fixed;
+	right: 0px;
+}
+.contactUs a{
+	font-size: 26px;
+	color: #FFB90F;
+}
+.contactUs p {
+	text-align: center;
+	color: #FFB90F;
+	font-size: 26px;
+	border-bottom: 4px groove #828282;
+	padding: 20px 10px;
+}
+.contactUs p:last-of-type {
+	border-bottom: none;
+}
+.contactUs span {
+	color: #fff;
+	font-size: 18px;
+	display: inline-block;
+	padding-top: 5px;
+	font-family: 'Jura', sans-serif;
+}
+.mailBlack {
+	display: none;
+}
+.socSeti  {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: -10px;
+}
+/*end aboutUs*/
+
+/*footer*/
+footer {
+	clear: both;
+}
+.oferta {
+	float: left;
+	width: 75%;
+	font-size: 12px;
+	border-right: 4px groove #828282;
+}
+.oferta p {
+	padding: 10px;
+	color: #ccc;
+	text-align: justify;
+}
+.ya_metrika {
+	clear: left;
+	float: left;
+	padding: 19px 10px 15px;
+	width: 25%;
+}
+.address {
+	float: left;
+	width: 50%;
+	text-align: right;
+	border-right: 4px groove #828282;
+}
+.address p {
+	color: #1E90FF;
+	padding: 15px 10px;
+}
+/*END footer*/
+
+/*форма обратной связи*/
+.form {
+	padding: 20px 10px;
+}
+form p {
+	padding: 5px 0px 0px;
+}
+.input, textarea{
+	border: solid 2px rgba(0,49,83,.2);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background: rgba(176,196,222,.1); 
+	outline: none;
+	padding: 3px 0px 3px 3px;
+	margin: 0px 1px 3px 0px;
+	width: 100%;
+}
+.input:focus, textarea:focus {
+	border: 1px solid rgba(81, 203, 238, 1);
+	box-shadow: 0px 0px 5px rgba(81, 203, 238, 1);
+	margin: 0px 1px 3px 0px;
+}
+#submit {
+	background: #ccc;
+	color: red;
+	font-size: 18px;
+	margin: 5px 0px 20px;
+	padding: 10px;
+	text-decoration: none;
+}
+#submit:hover {
+	background: red;
+	color: #fff;
+}
+/*конец форма обратной связи*/

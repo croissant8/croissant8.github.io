@@ -1,0 +1,161 @@
+/*начало AboutProject*/
+.aboutProject {
+	width: 100%;
+}
+.logoText p {
+	font-size: 20px;
+	line-height: 1.3;
+}
+.tel {
+	font-size: 18px;
+	font-family: 'Jura', sans-serif;
+}
+.email {
+	font-size: 18px;
+	padding-top: 7px;
+	font-family: 'Jura', sans-serif;
+}
+.logoText a  {
+	font-size: 18px;
+}
+.pageH1 {
+	font-size: 18px;
+}
+
+/*начало nav*/
+.navTop li {
+	width: 100%;
+	border-right: none;
+	border-bottom: 4px groove #828282;
+	text-align: center;
+}
+.navTop li:last-of-type{
+	border-bottom: none;
+	width: 100%;
+}
+.navTop li a {
+	width: 100%;
+	font-size: 26px;
+}
+.navTop span{
+	font-size: 20px;
+}
+/*конец nav*/
+
+/*начало основной контент*/
+article {
+	width: 100%;
+}
+article h2{
+	font-size: 24px;
+	margin-bottom: 10px;
+	padding: 10px 5px 0px 0px;
+}
+section h2 {
+	font-size: 22px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+}
+article section p {
+	padding: 5px 10px;
+	font-size: 18px;
+}
+article section:last-of-type {
+	padding-bottom: 0px;
+}
+.plan h2 {
+	font-size: 20px;
+	text-align: center;
+}
+.reason ul  li {
+	padding-bottom: 10px;
+}
+.price  td, .price  th{
+	font-size: 14px !important;
+}
+.rules {
+	display: none;
+}
+.breadcrumb {
+	text-align: center;
+}
+/*конец основной контент*/
+
+/*начало дополнительный контент*/
+aside {
+	width: 100%;
+}
+aside h3, aside h3 span  {
+	font-size: 22px !important; 
+	text-align: center;
+}
+aside section {
+	margin: 4%;
+}
+aside section p {
+	padding: 5px 15px;
+	font-size: 16px;
+	text-align: justify;
+}
+aside span p:first-of-type {
+	font-size: 16px;
+}
+#prodvizhenie aside p.bold {
+	margin-top: -10px;
+	margin-bottom: -5px;
+}
+aside ul {
+	padding: 10px 15px;
+	font-size: 16px;
+}
+aside ul  li {
+	padding-bottom: 5px;
+	text-align: justify;
+}
+#sozdanie aside section:last-of-type {
+	padding-bottom: 5px;
+}
+/*end aboutProject*/
+
+/*aboutUs*/
+.aboutUs {
+	position: static;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 2px solid #ccc;
+	display: inline-block;
+}
+.contactUs {
+	margin-bottom: 15px;
+	margin-right: 0;
+	width: 100%;
+}
+.contactUs p, .contactUs a {
+	text-align: center;
+	font-size: 24px;
+}
+.contactUs a {
+	display: block;
+}
+.contactUs span {
+	font-size: 22px;
+}
+.socSeti  {
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 40px;
+}
+/*end aboutUs*/
+
+/*footer*/
+.oferta {
+	width: 100%;
+	border-right: none;
+}
+.address {
+	text-align: right;
+	width: 75%;
+	border-right: none;
+}
+/*end footer*/

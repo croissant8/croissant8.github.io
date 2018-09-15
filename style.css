@@ -1,0 +1,81 @@
+html 
+{
+	background-color: DimGray;
+	color: GhostWhite;
+}
+body
+{	
+	float: left;
+	width: 100%;
+	font: 120% "Courier New", Monospace;
+	margin: 0;
+}
+article
+{
+	margin-top: 10%;
+}
+h1
+{
+	font: 200%;
+	padding-left: 2%;
+}
+p
+{
+	padding-left: 2%;
+}
+.Tab 
+{
+	padding-left: 10%;
+}
+header 
+{
+	float: left;
+	width: 100%;
+}
+nav
+{
+	float: left;
+	width: 100%;
+}
+ul
+{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+a 
+{
+	color: GhostWhite; 
+}
+.About_Me, .Projects
+{
+	float: left;
+	width: 48%;
+	padding-left: 2%;
+	text-align: right;
+}
+li:last-child
+{
+	text-align: left;
+}
+table
+{
+	width: 100%;
+	padding: 2%; 
+}
+col
+{
+	width: 40%;
+}
+col:last-child
+{
+	width: 60%;
+}
+td
+{
+	padding: 2%;
+	background: gray;
+}
